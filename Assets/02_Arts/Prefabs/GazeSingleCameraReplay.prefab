@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7922659805487037237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7922659805487037239}
+  - component: {fileID: 7922659805487037236}
+  m_Layer: 0
+  m_Name: GazeSingleCameraReplay
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 19d863de9b3c65449a211a5f64dde9d6, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7922659805487037239
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7922659805487037237}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -62.222546, y: -20.123081, z: 86.614494}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7922659805487037236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7922659805487037237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc7ac962ca6c1e489eb5f5425d07326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  processedRoot: Assets/StreamingAssets/Reorder_GazeHit
+  taskOrder: 1
+  csvFileIndex: 1
+  overrideCsvFullPath: 
+  replayCamera: {fileID: 0}
+  autoCreateReplayCamera: 1
+  applyRecordedCameraParams: 1
+  applyRecordedAspectRatio: 0
+  useRecordedVerticalFOV: 1
+  manualVerticalFOV: 90
+  manualNearClip: 0.3
+  manualFarClip: 1000
+  rotationOffsetEuler: {x: 0, y: 0, z: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
+  switchPanoramaOnNodeChange: 1
+  useUniversalPanoramaController: 1
+  panoramaController: {fileID: 0}
+  sceneIDOverride: 
+  removeNodePrefixForPanorama: 1
+  logPanoramaSwitch: 1
+  playOnLoad: 0
+  isPlaying: 0
+  loopPlayback: 1
+  playbackFPS: 90
+  playbackSpeed: 1
+  replayAllRecords: 1
+  useIntegratedVisualization: 1
+  gazeHitVisualizer: {fileID: 0}
+  heatmapVisualizer: {fileID: 0}
+  hideSubVisualizerPanels: 1
+  showStaticGazeRays: 0
+  showStaticHitPoints: 0
+  showSurfaceHeatmap: 1
+  autoFollowCurrentNodeVisualization: 1
+  showCurrentGazeRay: 1
+  showCurrentHitPoint: 1
+  noHitRayLength: 10
+  gazeRayWidth: 0.015
+  hitPointSize: 0.12
+  gazeRayColor: {r: 0, g: 1, b: 0, a: 0.75}
+  hitPointColor: {r: 1, g: 0.05, b: 0, a: 0.9}
+  showControlPanel: 0
+  panelRect:
+    serializedVersion: 2
+    x: 20
+    y: 20
+    width: 600
+    height: 680
+  nodeListHeight: 260

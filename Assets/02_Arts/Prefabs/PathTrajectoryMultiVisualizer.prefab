@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7187347762629949938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7187347762629949949}
+  - component: {fileID: 7187347762629949948}
+  m_Layer: 0
+  m_Name: PathTrajectoryMultiVisualizer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7187347762629949949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7187347762629949938}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.2960205, y: 13.814257, z: 4.13002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7187347762629949948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7187347762629949938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cbbd1b9736ea7443baec135a87fa0ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathRootFolderName: Reorder
+  pathSubFolderName: Path
+  nodeInfoRelativePath: ReadData/NodeInfo.csv
+  targetInfoRelativePath: SaveData/AllTargetPositions.csv
+  taskSelections:
+  - taskOrder: 23
+    loadAllCsv: 1
+    csvIndices: 1
+  - taskOrder: 69
+    loadAllCsv: 1
+    csvIndices: 1
+  - taskOrder: 115
+    loadAllCsv: 1
+    csvIndices: 1
+  sceneIDOverride: 
+  showControlPanel: 1
+  showTrajectory: 1
+  showMarkers: 1
+  showOrderLabels: 0
+  showDirectionArrows: 0
+  groundY: 0.1
+  markerDiameter: 1.5
+  markerThickness: 0.03
+  lineWidth: 0.3
+  trajectoryAlpha: 0.8
+  orderLabelHeight: 0.55
+  orderLabelFontSize: 72
+  orderLabelCharacterSize: 0.12
+  orderLabelColor: {r: 1, g: 1, b: 1, a: 1}
+  arrowSize: 0.45
+  arrowHeight: 0.16
+  arrowColor: {r: 1, g: 1, b: 1, a: 1}
+  lineColor: {r: 0.14894247, g: 0, b: 1, a: 1}
+  shortDecisionColor: {r: 0, g: 1, b: 0, a: 1}
+  middleDecisionColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  longDecisionColor: {r: 1, g: 0, b: 0, a: 1}
+  targetColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 1}
+  minDecisionTime: 0
+  midDecisionTime: 4
+  maxDecisionTime: 8
+  useTargetColorWhenDecTimeIsZero: 1
+  separateOverlappingLines: 1
+  lineSideOffset: 0.01
+  arrowPositionRatio: 0.82
+  repeatedLabelOffsetRadius: 1.5
+  panelRect:
+    serializedVersion: 2
+    x: 520
+    y: 20
+    width: 470
+    height: 700

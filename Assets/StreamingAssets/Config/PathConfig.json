@@ -1,0 +1,7 @@
+{
+  "panoramaAssetBundleRoot": "ImageFolder/AssetBundles",
+  "recordingSaveRoot": "SaveData/Recordings",
+  "gazeHitDataRoot": "Reorder_GazeHit",
+  "reorderDataRoot": "Reorder",
+  "decisionPointExportRoot": "SaveData/DecisionPointViews"
+}

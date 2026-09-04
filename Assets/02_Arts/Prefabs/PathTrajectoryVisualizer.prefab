@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &916996172020002455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 916996172020002449}
+  - component: {fileID: 916996172020002454}
+  m_Layer: 0
+  m_Name: PathTrajectoryVisualizer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &916996172020002449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916996172020002455}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -34.732513, y: -37.1356, z: -113.423676}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &916996172020002454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916996172020002455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74611260b48b8d847b866cbaf7418909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathRootFolderName: Reorder
+  pathSubFolderName: Path
+  nodeInfoRelativePath: ReadData/NodeInfo.csv
+  targetInfoRelativePath: SaveData/AllTargetPositions.csv
+  taskOrder: 1
+  csvFileIndex: 1
+  overridePathCsvFullPath: 
+  sceneIDOverride: 
+  showControlPanel: 1
+  showTrajectory: 1
+  showMarkers: 1
+  showOrderLabels: 1
+  showDirectionArrows: 1
+  groundY: 0.1
+  markerDiameter: 0.8
+  markerThickness: 0.03
+  lineWidth: 0.08
+  orderLabelHeight: 0.55
+  orderLabelFontSize: 72
+  orderLabelCharacterSize: 0.12
+  orderLabelColor: {r: 0, g: 0.097114354, b: 0.7075472, a: 1}
+  arrowSize: 0.8
+  arrowHeight: 0.16
+  arrowColor: {r: 0, g: 0.13725491, b: 1, a: 1}
+  lineColor: {r: 0, g: 0.13692307, b: 1, a: 1}
+  shortDecisionColor: {r: 0, g: 1, b: 0, a: 1}
+  middleDecisionColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  longDecisionColor: {r: 1, g: 0, b: 0, a: 1}
+  targetColor: {r: 0, g: 1, b: 1, a: 1}
+  minDecisionTime: 0
+  midDecisionTime: 5
+  maxDecisionTime: 15
+  useTargetColorWhenDecTimeIsZero: 1
+  panelRect:
+    serializedVersion: 2
+    x: 520
+    y: 20
+    width: 420
+    height: 520
+  repeatedLabelOffsetRadius: 0.8
+  arrowPositionRatio: 0.9
+  separateOverlappingLines: 1
+  lineSideOffset: 0.18

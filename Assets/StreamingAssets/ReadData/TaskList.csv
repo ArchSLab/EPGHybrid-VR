@@ -1,0 +1,8 @@
+﻿TaskOrder,SceneID,TaskID,StartPoint,EndPoint,EndPoint_All,SceneName,SceneType,LevelName,StartInfo,Background,TaskInfo,Path,EndPointType,Notes,MapAid,Gender,Age,TaskOrderOriginal
+23,23,2,1,21,"19,21,29",新加坡樟宜机场T4,航站楼,国际出发层,某处,距离登机时间还有15分钟，请迅速前往 ,G10 登机口,从 Ent01 → G10,2,本层-区外,F,0,0,106
+46,23,3,10,24,"24,25,26,27,28",新加坡樟宜机场T4,航站楼,国际出发层,某处,距离登机时间还有60分钟，请寻找,Discover Singapore 纪念品店,从 Ent03 → Discover Singapore,1,本层-区内,F,1,0,107
+69,23,4,10,9,9,新加坡樟宜机场T4,航站楼,国际出发层,某处,距离登机时间还有15分钟，请迅速前往 ,G20 登机口,从 Ent03 → G20,2,本层-区外,F,0,1,108
+92,23,5,10,12,12,新加坡樟宜机场T4,航站楼,国际出发层,某处,距离登机时间还有60分钟，请寻找,COSMETIC&PERFUME 化妆品|香水店,从 Ent03 → COSMETIC&PERFUMES BY SHILLA,1,本层-区内,F,1,1,109
+115,23,7,15,2,"1,2",新加坡樟宜机场T4,航站楼,国际出发层,某处,距离登机时间还有15分钟，请迅速前往 ,H8 登机口,从 Ent04 → 下扶梯 → H8,3,其他层-区外,F,1,0,110
+138,23,8,15,6,6,新加坡樟宜机场T4,航站楼,国际出发层,某处,距离登机时间还有60分钟，请寻找,BEE CHENG HIANG 美珍香食品店,从 Ent04 → BEE CHENG HIANG 店,1,本层-区内,F,0,0,111
+150,23,10,15,17,17,新加坡樟宜机场T4,航站楼,国际出发层,某处,请寻找,吸烟室 Smoking area,从 Ent04 → Smoking area,1,本层-区内,F,0,1,112

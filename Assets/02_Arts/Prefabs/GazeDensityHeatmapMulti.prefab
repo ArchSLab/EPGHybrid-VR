@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7942524849164880210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7942524849164880208}
+  - component: {fileID: 7942524849164880209}
+  m_Layer: 0
+  m_Name: GazeDensityHeatmapMulti
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7942524849164880208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7942524849164880210}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -49.3818, y: 3.4093792, z: 72.03199}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7942524849164880209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7942524849164880210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0faebb6a74be24a8f2352ffcb885bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  processedRoot: Assets/StreamingAssets/Reorder_GazeHit
+  taskOrder: 92
+  loadMode: 0
+  singleCsvFileIndex: 1
+  overrideEyeFolderFullPath: 
+  manualCsvFileList: 
+  showControlPanel: 1
+  panelRect:
+    serializedVersion: 2
+    x: 922.99994
+    y: 80
+    width: 470
+    height: 820
+  participantListHeight: 150
+  nodeListHeight: 210
+  sampleStep: 1
+  maxRecords: 60000
+  hitObjectTagFilter: 
+  hitObjectNameContains: 
+  weightMode: 1
+  preferHitColliderPath: 1
+  includeHitObjectVariantInKey: 1
+  includeNormalBucketInKey: 1
+  normalBucketStep: 0.05
+  minRecordsPerSurface: 3
+  maxSurfaces: 200
+  textureResolution: 256
+  densityRadius: 0.45
+  surfacePadding: 0.24
+  minSurfaceSize: 0.01
+  surfaceOffset: 0.05
+  normalizePerSurface: 0
+  usePercentileClamp: 1
+  clampPercentile: 0.95
+  manualMaxDensity: 20
+  minAlpha: 0.27
+  maxAlpha: 0.51
+  densityCutoff: 0
+  coldColor: {r: 0.05, g: 0.18, b: 1, a: 1}
+  midColor: {r: 1, g: 0.95, b: 0.05, a: 1}
+  hotColor: {r: 1, g: 0, b: 0, a: 1}

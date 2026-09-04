@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/04_Scenes/StartScene.unity
+    guid: c652ad71cba7dc048b4b5652c775af8b
+  - enabled: 1
+    path: Assets/04_Scenes/TaskTipScene.unity
+    guid: 3099184e8dfce6e4085f404e941266cf
+  - enabled: 1
+    path: Assets/04_Scenes/Scene1.unity
+    guid: daa083de4560b6e4caee9c11c2590b73
+  - enabled: 1
+    path: Assets/04_Scenes/Scene2.unity
+    guid: 2434118b73b397e4b888b23c9a9384a8
+  - enabled: 1
+    path: Assets/04_Scenes/Scene3.unity
+    guid: e93c2765af7c4314fa1263e01bf6da20
+  - enabled: 1
+    path: Assets/04_Scenes/Scene4.unity
+    guid: 3941916daa546ab4f97c691bf578e324
+  - enabled: 1
+    path: Assets/04_Scenes/Scene5.unity
+    guid: ee05cde85f4c15544bfcab5edbe99c8c
+  - enabled: 1
+    path: Assets/04_Scenes/Scene6.unity
+    guid: b0c9dc38282966744b7d5c3ae8f18a7c
+  - enabled: 1
+    path: Assets/04_Scenes/Scene7.unity
+    guid: c6bcd50e67f1efa4b8320951a41b23ab
+  - enabled: 1
+    path: Assets/04_Scenes/Scene8.unity
+    guid: 8f0d70de7171786469cd2ab1d31427f2
+  - enabled: 1
+    path: Assets/04_Scenes/Scene9.unity
+    guid: 9ca3dc06a74f6044ca882c9468cc6103
+  - enabled: 1
+    path: Assets/04_Scenes/Scene10.unity
+    guid: 43c0c2a115d6f1f468dbdff9e6db150e
+  - enabled: 1
+    path: Assets/04_Scenes/Scene11.unity
+    guid: 31f40b598ebc01e44b97872ec123d6be
+  - enabled: 1
+    path: Assets/04_Scenes/Scene12.unity
+    guid: ec13811c11cddb2438c9316c4f99c531
+  - enabled: 1
+    path: Assets/04_Scenes/Scene13.unity
+    guid: 13fb67ebef474cc48876eb3818b51dcf
+  - enabled: 1
+    path: Assets/04_Scenes/Scene14.unity
+    guid: 6f5f12e5da821214d876139c62106c91
+  - enabled: 1
+    path: Assets/04_Scenes/Scene15.unity
+    guid: 39681e928fcee0f428c87c77c8c8b9fb
+  - enabled: 1
+    path: Assets/04_Scenes/Scene16.unity
+    guid: ebd7e2516a7fc9d419e66bb81f30cd06
+  - enabled: 1
+    path: Assets/04_Scenes/Scene17.unity
+    guid: 7c45b90324cc18e499743984e6c47bc8
+  - enabled: 1
+    path: Assets/04_Scenes/Scene18.unity
+    guid: d0c32862d4487d4459bafb530878fcd4
+  - enabled: 1
+    path: Assets/04_Scenes/Scene19.unity
+    guid: d8a11303717be40498068af8d8e49b8a
+  - enabled: 1
+    path: Assets/04_Scenes/Scene20.unity
+    guid: c42a6012bd460e641b32aa9bf9191250
+  - enabled: 1
+    path: Assets/04_Scenes/Scene21.unity
+    guid: 25327b67d8e0f2f4da780dc21568a036
+  - enabled: 1
+    path: Assets/04_Scenes/Scene22.unity
+    guid: 19fac189b42b90d42bc704f713609c18
+  - enabled: 1
+    path: Assets/04_Scenes/Scene23.unity
+    guid: 05738e3674a494c4d924861017565d3e
+  - enabled: 1
+    path: Assets/04_Scenes/EndScene.unity
+    guid: 46f50860c4eb6364daace5ee08a3da1b
+  - enabled: 1
+    path: Assets/04_Scenes/EndSceneFailed.unity
+    guid: 2955dffbca9910241bec670129f66a23
+  m_configObjects:
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 28cc0945bff8b954dbc3e1668897de11, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ebf258df4cad046438c17199b0335e44, type: 2}

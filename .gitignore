@@ -1,0 +1,29 @@
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Visual Studio / IDE
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+
+# Local experiment recordings
+/Recordings/
+
+# Upgrade logs
+UpgradeLog*.htm
+
+# OS generated files
+.DS_Store
+Thumbs.db
